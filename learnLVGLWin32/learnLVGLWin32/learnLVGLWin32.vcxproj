@@ -41,7 +41,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)../lvgl/src/;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)../lvgl/src/;$(SolutionDir)../lv_drivers/;$(SolutionDir)../;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -361,6 +361,7 @@
     <ClCompile Include="..\..\lvgl\src\widgets\lv_switch.c" />
     <ClCompile Include="..\..\lvgl\src\widgets\lv_table.c" />
     <ClCompile Include="..\..\lvgl\src\widgets\lv_textarea.c" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="..\..\lvgl\src\extra\libs\freetype\arial.ttf" />

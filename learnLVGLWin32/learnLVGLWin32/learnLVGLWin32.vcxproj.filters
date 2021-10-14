@@ -998,6 +998,9 @@
     <ClCompile Include="..\..\lvgl\src\widgets\lv_textarea.c">
       <Filter>lvgl\src\widgets</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Font Include="..\..\lvgl\src\extra\libs\freetype\arial.ttf">
